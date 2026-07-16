@@ -1,6 +1,6 @@
 # Methods — prior art, the collapse findings, and honest scope
 
-The `committee` skill is a synthetic instance of a well-studied family: structured
+The `advisory` skill is a synthetic instance of a well-studied family: structured
 multi-perspective deliberation. The value of grounding it here is that these
 methods each solved a *specific* failure of naive group thinking, and the skill
 inherits both their moves and their known limits.
@@ -67,7 +67,7 @@ trajectories or calibrated probabilities.**
 Therefore:
 
 - **Use the panel to expand the consideration set**, never to estimate how likely
-  an outcome is. "The committee splits 5–2" is not a 71% anything.
+  an outcome is. "The panel splits 5–2" is not a 71% anything.
 - **Convergence is not correctness.** A unanimous synthetic panel may just be the
   model's own prior expressed seven times. Treat agreement as a prompt to check,
   not as evidence. (This mirrors `provenance.md`: retrieval fluency ≠ truth.)
@@ -81,7 +81,7 @@ Therefore:
 Existing Claude skills in this space (`agent-review-panel`, `multi-persona-council`,
 `seven-advisors-decision-council`, `claude-devils-advocate`) run a **multi-agent
 adversarial debate that a judge resolves into a single verdict**, usually over
-code or plans. `committee` diverges deliberately on two axes:
+code or plans. `advisory` diverges deliberately on two axes:
 
 1. **Single-context simulation by default, not multi-agent orchestration.** The
    demonstrated practice is one model reading "the way a panel would," inline, in

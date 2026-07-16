@@ -1,9 +1,9 @@
 ---
-name: committee
-description: Convene a synthetic panel of subject-matter-expert stakeholders and read a design, plan, or decision the way that panel would — in three modes. SURVEY maps where the experts converge and diverge, organized into named axes. VERDICT collapses each axis to its most-natural default, the runner-up it competes with, and the specific condition that would flip you to the runner-up. OBJECTION runs the panel adversarially to surface the strongest objections to a proposal or rule. Use when the user asks "what would an SME / stakeholder survey say / sound like / advise", "where's the convergence and divergence", "what does the committee say", "most natural option for each axis and its next-best competitor", "next-best alternative and under what circumstances I'd prefer it", "find the objections to this", "give me an advisory on this choice / an advisory on this design", or wants a multi-perspective expert review of a design that ends in a decision menu, not a single judge's verdict. Feeds tee-up (each axis-verdict is a ready decision) and pairs with §equip.
+name: advisory
+description: Convene a synthetic panel of subject-matter-expert stakeholders and read a design, plan, or decision the way that panel would — in three modes. SURVEY maps where the experts converge and diverge, organized into named axes. VERDICT collapses each axis to its most-natural default, the runner-up it competes with, and the specific condition that would flip you to the runner-up. OBJECTION runs the panel adversarially to surface the strongest objections to a proposal or rule. Use when the user asks "what would an SME / stakeholder survey say / sound like / advise", "check the advisory panel", "where's the convergence and divergence", "what does the advisory panel / committee say", "most natural option for each axis and its next-best competitor", "next-best alternative and under what circumstances I'd prefer it", "find the objections to this", "give me an advisory on this choice / an advisory on this design", or wants a multi-perspective expert review of a design that ends in a decision menu, not a single judge's verdict. Feeds tee-up (each axis-verdict is a ready decision) and pairs with §equip.
 ---
 
-# committee
+# advisory
 
 Read a design, plan, or decision **the way a panel of real subject-matter experts would** — then hand back not a verdict but a structured map the decider can act on. The panel is a *lens*, not an authority: it exists to surface the considerations a single view would miss, never to decide for you.
 
@@ -50,7 +50,7 @@ The panel pointed at refutation: the strongest objections to a proposal, design,
 
 ## When to use
 - A design/plan/decision is on the table and you want the spread of expert reaction, or the per-axis default-and-runner-up, or the strongest objections.
-- The user says any of the description's trigger phrases ("what would an SME survey say", "what does the committee say", "next-best option and when I'd prefer it", "find the objections").
+- The user says any of the description's trigger phrases ("what would an SME survey say", "check the advisory panel", "what does the advisory panel say", "next-best option and when I'd prefer it", "find the objections").
 - Another skill needs a design reviewed before a decision (`§equip` landscape, `tee-up` intake).
 
 ## When NOT to use
@@ -62,7 +62,7 @@ The panel pointed at refutation: the strongest objections to a proposal, design,
 ## Composition
 - **→ tee-up.** Each axis-verdict (`default / runner-up / flip-when`) is already a normalized decision; hand the set to `tee-up` to serve one at a time.
 - **→ §equip.** The survey *is* a mapped decision landscape; when the user is equipping to decide, deliver the survey and stop short of a recommendation.
-- **vs. audit-planes.** audit-planes projects fixed engineering planes onto code; committee casts stakeholder voices onto a design. Different object, different lens.
+- **vs. audit-planes.** audit-planes projects fixed engineering planes onto code; advisory casts stakeholder voices onto a design. Different object, different lens.
 - **uses elicit.** When the verdict needs a preference the model can't infer, ask via `elicit`'s fork-based, strawman-first style — don't route a knowledge gap to the user as a fork.
 
 ## Anti-patterns

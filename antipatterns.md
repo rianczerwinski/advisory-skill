@@ -41,7 +41,7 @@ Why it flips: naming the kind of split tells the decider whether more *investiga
 Prevents: researching a values disagreement forever, or voting on a matter of fact.
 
 ### Verdict instead of a menu
-❌ Wrong: "The committee has decided: keep it bespoke. Moving on."
+❌ Wrong: "The panel has decided: keep it bespoke. Moving on."
 ✅ Right: "Default is keep-bespoke; challenger is adopt-the-engine-keep-the-skin; flip when you catch yourself building log-tailing. Your call."
 Why it flips: the panel is a lens, not an authority — its job is to structure the choice (default/runner-up/flip) and return it, not to make it. A judge's verdict is a *different skill* (`agent-review-panel`).
 Prevents: laundering the model's pick into "what the experts decided."
@@ -53,7 +53,7 @@ Why it flips: a confabulated expert is *maximally plausible* — the fabrication
 Prevents: a credible-sounding panel that is entirely the model's imagination wearing credentials.
 
 ### Convergence read as calibration
-❌ Wrong: "The committee is 6–1 in favor, so this is very likely the right call."
-✅ Right: "The committee leans 6–1 — which tells you the consideration is one-sided, not that the outcome is 86% likely. Treat the lean as a prompt to check the lone dissenter's case."
+❌ Wrong: "The panel is 6–1 in favor, so this is very likely the right call."
+✅ Right: "The panel leans 6–1 — which tells you the consideration is one-sided, not that the outcome is 86% likely. Treat the lean as a prompt to check the lone dissenter's case."
 Why it flips: the panel surfaces the *shape* of a consideration, never a probability; a vote count is not a likelihood and unanimity is not proof.
 Prevents: turning a qualitative reading into a false quantitative confidence.
