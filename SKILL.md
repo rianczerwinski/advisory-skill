@@ -1,6 +1,16 @@
 ---
 name: advisory
-description: Convene a synthetic panel of subject-matter-expert stakeholders and read a design, plan, or decision the way that panel would — in three modes. SURVEY maps where the experts converge and diverge, organized into named axes. VERDICT collapses each axis to its most-natural default, the runner-up it competes with, and the specific condition that would flip you to the runner-up. OBJECTION runs the panel adversarially to surface the strongest objections to a proposal or rule. Use when the user asks "what would an SME / stakeholder survey say / sound like / advise", "check the advisory panel", "where's the convergence and divergence", "what does the advisory panel / committee say", "most natural option for each axis and its next-best competitor", "next-best alternative and under what circumstances I'd prefer it", "find the objections to this", "give me an advisory on this choice / an advisory on this design", or wants a multi-perspective expert review of a design that ends in a decision menu, not a single judge's verdict. Feeds tee-up (each axis-verdict is a ready decision) and pairs with §equip.
+description: >-
+  Convene a synthetic panel of stakeholders with conflicting incentives to read
+  a design, plan, rule, or decision in three modes. SURVEY maps convergence and
+  divergence as named axes. VERDICT gives each axis a natural default, its
+  tightest runner-up, and an observable flip condition. OBJECTION surfaces the
+  strongest adversarial cases. Use when the user asks what an SME or stakeholder
+  panel would advise, says "call/check the advisory panel," asks where experts
+  converge and diverge, wants the most natural option and next-best competitor,
+  asks when the alternative would be preferable, or says "find the objections."
+  Produces a decision menu rather than pretending the simulated panel is an
+  authority; its axis verdicts can feed tee-up and its survey pairs with §equip.
 ---
 
 # advisory
