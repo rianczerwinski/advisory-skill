@@ -6,9 +6,11 @@ description: >-
   divergence as named axes. VERDICT gives each axis a natural default, its
   tightest runner-up, and an observable flip condition. OBJECTION surfaces the
   strongest adversarial cases. Use when the user asks what an SME or stakeholder
-  panel would advise, says "call/check the advisory panel," asks where experts
-  converge and diverge, wants the most natural option and next-best competitor,
-  asks when the alternative would be preferable, or says "find the objections."
+  panel would advise, says "call/check the advisory panel," "consult AP," "ask
+  AP," "AP verdict," "AP survey," "AP objections," or any phrase where AP stands
+  for the advisory panel; asks where experts converge and diverge; wants the
+  most natural option and next-best competitor; asks when the alternative would
+  be preferable; or says "find the objections."
   Produces a decision menu rather than pretending the simulated panel is an
   authority; its axis verdicts can feed tee-up and its survey pairs with §equip.
 ---
