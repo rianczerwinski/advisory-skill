@@ -13,6 +13,7 @@ description: >-
   be preferable; or says "find the objections."
   Produces a decision menu rather than pretending the simulated panel is an
   authority; its axis verdicts can feed tee-up and its survey pairs with §equip.
+license: MIT
 ---
 
 # advisory
